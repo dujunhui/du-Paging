@@ -1,0 +1,58 @@
+/*页码*/
+.du-pageBox{
+    text-align: center;
+    width:100%;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+#du-UpBtn,#du-DownBtn{
+    display: inline-block;
+    width: 64px;
+    height: 24px;
+    line-height: 24px;
+    *display:inline;
+    *zoom:1;
+}
+#du-DownBtn{
+    margin-left:-10px;
+}
+
+
+#du-numBox{
+    display: inline-block;
+    padding:0;margin: 0;
+    *display:inline;
+    *zoom:1;
+}
+#du-numBox li{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 10px;
+    *display:inline;
+    *zoom:1;
+}
+.du-pageBox .pageNow{
+    background-color: #3ab034;
+    color: #fff;
+}
+.du-pageBox .disable{
+    background-color: #f1f1f1;
+    background-image:none !important;
+    border: 1px solid #e1e1e1;
+    color: #b8b8b8;
+    cursor: default;
+}
+.du-pageBox .able{
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    cursor: pointer;
+}
+.du-pageBox .able:hover{
+    background-color: #f1f1f1;
+    border: 1px solid #e1e1e1;
+    color: #000;
+}
