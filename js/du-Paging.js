@@ -21,7 +21,7 @@ var p_pTotal;//总共多少页
 var $upBtn = $('#du-UpBtn');
 var $downBtn = $('#du-DownBtn');
 var $pNumBox = $('#du-numBox');
-var $dataBox = $('.listul');
+var $dataBox = $('#du-NewsUl');
 
 //入口
 function initDuPaging(){

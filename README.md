@@ -1,12 +1,12 @@
-# du_Paging
+# du-Paging
 
 - html
 ```html
     <!--内容-->
-    <ul class="listul">
+    <ul id="du-NewsUl">
     </ul>
     <!--页码-->
-    <div class="du-pageBox">
+    <div class="du-PageBox">
         <div id="du-UpBtn" class="disable">上一页</div>
         <ul id="du-numBox">
             <li class="pageNow">1</li>
@@ -18,10 +18,10 @@
 ```
 - css
 ```html
-    <link rel="stylesheet" href="css/du_Paging.css"/>
+    <link rel="stylesheet" href="css/du-Paging.css"/>
 ```
 - js
 ```html
     <script src="js/tool/jquery-1.11.1.js"></script>
-    <script src="js/du_Paging.js"></script>
+    <script src="js/du-Paging.js"></script>
 ```
