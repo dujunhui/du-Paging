@@ -25,3 +25,4 @@
     <script src="js/tool/jquery-1.11.1.js"></script>
     <script src="js/du-Paging.js"></script>
 ```
+[demo.html](https://dujunhui.github.io/du-Paging/demo.html)
