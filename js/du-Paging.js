@@ -11,7 +11,7 @@ function getAllData(){
 
 
 
-var p_dNum = 3;  //每页显示5条数据
+var p_dNum = 5;  //每页显示5条数据
 var p_now = 1;  //当前第几页
 var p_pNum = 5; //显示几个页码(只能是基数)
 
